@@ -67,7 +67,7 @@ public class MissionAssembler {
             System.out.println("\n  Assembly FAILED.");
             return;
         } else {
-            System.out.println("  Power budget: OK ✓");
+            System.out.println("  Power budget: OK ");
         }
         System.out.println();
 
@@ -97,6 +97,7 @@ public class MissionAssembler {
         System.out.println("  " + payload.collectData());
         System.out.println();
 
-        System.out.println("  Mission assembly SUCCESSFUL ✓");
+        System.out.println("  Mission assembly SUCCESSFUL ");
+        System.out.println("=".repeat(50));
     }
 }

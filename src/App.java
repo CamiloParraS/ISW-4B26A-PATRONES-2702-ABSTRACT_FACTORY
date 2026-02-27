@@ -1,14 +1,16 @@
-package app;
+
 
 import assembler.MissionAssembler;
 import interfaces.MissionComponent;
 import lunar.LunarFactory;
+import mars.MarsFactory;
 
 public class App {
     public static void main(String[] args) {
 
         MissionComponent[] missions = {
-            new LunarFactory()
+            new LunarFactory(),
+            new MarsFactory()
         };
 
         double[] distances = { 0.0026, 1.52, 5.2 };  
